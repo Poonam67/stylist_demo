@@ -59,7 +59,7 @@ The app uses the **`Provider`** pattern for scalable and reactive state manageme
 
 ### 📂 Structure
 
-
+```bash
 lib/
 ├── viewmodels/
 │   └── home_view_model.dart     # Uses ChangeNotifier
@@ -68,7 +68,7 @@ lib/
 │   └── widgets/
 ├── core/
 │   └── models/
-
+```
 ---
 
 ### 🌐 API Used
