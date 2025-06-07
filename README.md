@@ -6,11 +6,28 @@ A Flutter application to showcase search functionality with products API list an
 
 ## 📱 Screenshots
 
-| Home Screen | Detail Screen   | 
-|-------------|-----------------|
-| ![Home](https://github.com/Poonam67/stylist_demo/blob/main/screenshots/android/android1.png?raw=true) | ![Profile](https://github.com/Poonam67/stylist_demo/blob/main/screenshots/android/android2.png?raw=true) |
+### 🤖 Android
 
-> Place your images inside a `/screenshots` folder in your root directory and update the filenames above accordingly.
+| Home Screen | Detail Screen | 
+|-------------|----------------|
+| ![Android Home](https://github.com/Poonam67/stylist_demo/blob/main/screenshots/android/android1.png?raw=true) | ![Android Detail](https://github.com/Poonam67/stylist_demo/blob/main/screenshots/android/android2.png?raw=true) |
+
+---
+
+### 🍎 iOS
+
+| Home Screen | Profile Screen | 
+|-------------|----------------|
+| ![iOS Home](https://github.com/Poonam67/stylist_demo/blob/main/screenshots/ios/ios1.png?raw=true) | ![iOS Details](https://github.com/Poonam67/stylist_demo/blob/main/screenshots/ios/ios2.png?raw=true) | 
+
+---
+
+### 🖥️ Web
+
+| Home Screen | Details Screen |
+|-------------|------------------|
+| ![Web Home](https://github.com/Poonam67/stylist_demo/blob/main/screenshots/web/web1.png?raw=true) | ![Web Details](https://github.com/Poonam67/stylist_demo/blob/main/screenshots/web/web2.png?raw=true) |
+
 
 ---
 
