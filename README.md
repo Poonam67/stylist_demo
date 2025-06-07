@@ -51,7 +51,7 @@ The app uses the **`Provider`** pattern for scalable and reactive state manageme
 ### 🧠 Core Concepts
 
 - ✅ **ChangeNotifier** is used to create reactive ViewModels  
-- ✅ **Separation of concerns** between UI and business logic  
+- ✅ **Separation of concerns** between UI and business logic using MVVM
 - ✅ **Real-time updates**: UI listens to changes and rebuilds automatically  
 - ✅ Promotes **testability** and **maintainability** of the codebase  
 
@@ -71,18 +71,17 @@ lib/
 
 ---
 
-## 🌐 API Used
+### 🌐 API Used
 
 This app consumes a RESTful API to fetch stylist data and related information.
 
 ---
 
-### 🔍 API Details
+🌐 API Used
+The app consumes a public API to fetch stylist products.
 
-| Feature          | Endpoint URL                      | Description                      |
-|------------------|-----------------------------------|----------------------------------|
-| Get Products     | `https://dummyjson.com/products`  | Retrieves a list of products     |
-
+Feature	        Endpoint	                    Description
+Get Products	https://dummyjson.com/products	Fetch list of product data
 
 
 ### Example API call snippet
