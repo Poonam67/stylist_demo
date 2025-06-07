@@ -41,6 +41,15 @@ To run this project locally:
    git clone https://github.com/Poonam67/stylist_demo.git
    cd tyre_demo
 
+   # Get the dependencies
+   flutter pub get
+
+   # Run the app
+   flutter run
+
+   # Run app on chrome
+   flutter run -d chrome
+
 
 ## 🔁 State Management
 
