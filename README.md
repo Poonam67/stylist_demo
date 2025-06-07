@@ -1,16 +1,100 @@
-# tyreplex_demo
+# Stylist Demo App
 
-A new Flutter project.
+A Flutter application to showcase search functionality with products API list and details.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+| Home Screen | Stylist Profile | Booking Screen |
+|-------------|-----------------|----------------|
+| ![Home](screenshots/home.png) | ![Profile](screenshots/profile.png) | ![Booking](screenshots/booking.png) |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+> Place your images inside a `/screenshots` folder in your root directory and update the filenames above accordingly.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Setup Instructions
+
+To run this project locally:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Poonam67/stylist_demo.git
+   cd tyre_demo
+
+
+## 🔁 State Management
+
+The app uses the **`Provider`** pattern for scalable and reactive state management.
+
+---
+
+### 🧠 Core Concepts
+
+- ✅ **ChangeNotifier** is used to create reactive ViewModels  
+- ✅ **Separation of concerns** between UI and business logic  
+- ✅ **Real-time updates**: UI listens to changes and rebuilds automatically  
+- ✅ Promotes **testability** and **maintainability** of the codebase  
+
+---
+
+### 📂 Structure
+
+```bash
+lib/
+├── viewmodels/
+│   └── home_view_model.dart     # Uses ChangeNotifier
+├── ui/
+│   ├── screens/
+│   └── widgets/
+├── core/
+│   └── models/
+
+---
+
+## 🌐 API Used
+
+This app consumes a RESTful API to fetch stylist data and related information.
+
+---
+
+### 🔍 API Details
+
+| Feature          | Endpoint URL                      | Description                      |
+|------------------|-----------------------------------|----------------------------------|
+| Get Products     | `https://dummyjson.com/products`  | Retrieves a list of products     |
+
+
+
+### Example API call snippet
+
+```dart
+final response = await http.get(Uri.parse('https://dummyjson.com/products'));
+
+if (response.statusCode == 200) {
+  final data = jsonDecode(response.body);
+  // Parse data to models
+} else {
+  throw Exception('Failed to load stylists');
+}
+
+
+## 📦 Packages Used
+
+| Package                | Purpose                       |
+|------------------------|-------------------------------|
+| `provider`             | State management              |
+| `http`                 | API calls                     |
+| `carousel_slider`      | For multiple images           |
+| `cached_network_image` | Load and cache network images | 
+| `get_it`               | Dependency Injection          |
+
+
+## 💻 Flutter Version
+
+To check your Flutter SDK version, run the following command in your terminal:
+
+```bash
+flutter --version >> "3.32"
