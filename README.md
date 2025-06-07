@@ -6,9 +6,9 @@ A Flutter application to showcase search functionality with products API list an
 
 ## 📱 Screenshots
 
-| Home Screen | Stylist Profile | Booking Screen |
-|-------------|-----------------|----------------|
-| ![Home](screenshots/home.png) | ![Profile](screenshots/profile.png) | ![Booking](screenshots/booking.png) |
+| Home Screen | Detail Screen   | 
+|-------------|-----------------|
+| ![Home](https://github.com/Poonam67/stylist_demo/blob/main/screenshots/android/android1.png?raw=true) | ![Profile](https://github.com/Poonam67/stylist_demo/blob/main/screenshots/android/android2.png?raw=true) |
 
 > Place your images inside a `/screenshots` folder in your root directory and update the filenames above accordingly.
 
