@@ -59,7 +59,7 @@ The app uses the **`Provider`** pattern for scalable and reactive state manageme
 
 ### 📂 Structure
 
-```bash
+
 lib/
 ├── viewmodels/
 │   └── home_view_model.dart     # Uses ChangeNotifier
@@ -77,16 +77,16 @@ This app consumes a RESTful API to fetch stylist data and related information.
 
 ---
 
-🌐 API Used
-The app consumes a public API to fetch stylist products.
+### 🔍 API Details
 
-Feature	        Endpoint	                    Description
-Get Products	https://dummyjson.com/products	Fetch list of product data
+| Feature          | Endpoint URL                      | Description                      |
+|------------------|-----------------------------------|----------------------------------|
+| Get Products     | `https://dummyjson.com/products`  | Retrieves a list of products     |
+
 
 
 ### Example API call snippet
 
-```dart
 final response = await http.get(Uri.parse('https://dummyjson.com/products'));
 
 if (response.statusCode == 200) {
@@ -112,5 +112,4 @@ if (response.statusCode == 200) {
 
 To check your Flutter SDK version, run the following command in your terminal:
 
-```bash
 flutter --version >> "3.32"
